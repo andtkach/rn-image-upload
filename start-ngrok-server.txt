@@ -1,0 +1,5 @@
+https://devatk11.eu.ngrok.io
+
+ngrok http https://localhost:5001 -host-header="localhost:5001"
+
+ngrok http https://localhost:5001 -host-header="localhost:5001" --region=eu --hostname=devatk11.eu.ngrok.io
